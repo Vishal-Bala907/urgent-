@@ -12,6 +12,8 @@ Version: 1.0.0
   --black: #000;
   --white: #fff;
   --theme: #ec2d2d;
+  --yellowMy:#ffe000
+  --themeMy: #14b2f1;
   --theme2: #ff9900;
   --theme3: #ff9900;
   --header: #232323;
@@ -22,7 +24,8 @@ Version: 1.0.0
   --bg: #0e0e0e;
   --bg2: #191919;
   --bg3: #ffffff33;
-  --color-gradient-1: linear-gradient(90deg, #71afff 0%, #1a04e6 100%);
+  --color-gradient-1: linear-gradient(90deg, #ff9900 0%, #cc2500 100%);
+  --color-gradient-0: linear-gradient(90deg, #72eaff 0%, #0093ce 100%);
   --color-gradient-2: linear-gradient(
     102.27deg,
     #0e0e0e 0%,
@@ -1031,7 +1034,7 @@ input.main-search-input::placeholder {
   top: 0;
   left: 0;
   width: 70%;
-  background: var(--color-gradient-1);
+  background: var(--color-gradient-0);
   height: 100%;
   content: "";
   z-index: -1;
@@ -3071,7 +3074,7 @@ input.main-search-input::placeholder {
   margin-bottom: 10px;
 }
 .about-wrapper-3 .about-content .about-list li i {
-  color: var(--theme);
+  color: var(--yellowMy);
   margin-right: 15px;
   font-size: 18px;
 }
@@ -3125,13 +3128,13 @@ input.main-search-input::placeholder {
   margin-bottom: 70px;
 }
 .about-wrapper-3 .about-content .about-info .info-right .icon::before {
-  background: var(--theme);
+  background: #ffe000;
   opacity: 0.1;
   width: 105px;
   height: 105px;
 }
 .about-wrapper-3 .about-content .about-info .info-right .icon::after {
-  background: var(--theme);
+  background: #ffe000;
   opacity: 0.1;
   width: 85px;
   height: 85px;

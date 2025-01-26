@@ -27,13 +27,13 @@ const FooterOne = () => {
                     Ankleshwar.
                   </p>
                   <ul className="contact-info">
-                    <li>
+                    {/* <li>
                       <i className="fas fa-map-marker-alt"></i>
                       6391 Elgin St. Celina, USA
-                    </li>
+                    </li> */}
                     <li>
                       <i className="fa-solid fa-phone-volume"></i>
-                      <Link href="tel:2086660112">+208-666-0112</Link>
+                      <Link href="tel:2086660112">+91 2646 251639</Link>
                     </li>
                   </ul>
                 </div>
@@ -54,18 +54,18 @@ const FooterOne = () => {
                       <i className="fa-solid fa-chevron-right"></i>About
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link href="/pricing">
                       <i className="fa-solid fa-chevron-right"></i>Pricing Plan
                     </Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link href="/faq">
                       <i className="fa-solid fa-chevron-right"></i>Faq
                     </Link>
                   </li>
                   <li>
-                    <Link href="/news-details">
+                    <Link href={`/blog-0`}>
                       <i className="fa-solid fa-chevron-right"></i>Our Blog
                     </Link>
                   </li>
@@ -99,7 +99,7 @@ const FooterOne = () => {
                         <i className="far fa-calendar-alt"></i>15 Dec, 2024
                       </div>
                       <h6>
-                        <Link href="/news-details">
+                        <Link href={`/blog-0`}>
                           Energetically Envisioned Is User Friendly
                         </Link>
                       </h6>
@@ -117,7 +117,7 @@ const FooterOne = () => {
                         <i className="far fa-calendar-alt"></i>29 Feb, 2024
                       </div>
                       <h6>
-                        <Link href="/news-details">
+                        <Link href={`/blog-1`}>
                           Construction Site Security Guide Lide
                         </Link>
                       </h6>
@@ -158,7 +158,7 @@ const FooterOne = () => {
         </div>
       </div>
 
-      <div className="footer-bottom">
+      {/* <div className="footer-bottom">
         <div className="container">
           <div className="footer-bottom-wrapper">
             <p>
@@ -174,7 +174,7 @@ const FooterOne = () => {
             </ul>
           </div>
         </div>
-      </div>
+      </div> */}
     </footer>
   );
 };

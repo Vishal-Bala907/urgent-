@@ -66,8 +66,11 @@ const About2 = () => {
                 </p>
                 <ul className="about-list wow fadeInUp" data-wow-delay=".7s">
                   {list.map((list, i) => (
-                    <li key={i}>
-                      <i className="fa-regular fa-circle-check"></i>
+                    <li key={i} style={{ color: "#ffe000s" }}>
+                      <i
+                        className="fa-regular fa-circle-check"
+                        style={{ color: "#ffe000s" }}
+                      ></i>
                       {list}
                     </li>
                   ))}
