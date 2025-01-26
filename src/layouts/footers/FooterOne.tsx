@@ -99,9 +99,7 @@ const FooterOne = () => {
                         <i className="far fa-calendar-alt"></i>15 Dec, 2024
                       </div>
                       <h6>
-                        <Link href="/news-details">
-                          Energetically Envisioned Is User Friendly
-                        </Link>
+                        <Link href="/news-details">Sustainable Packaging</Link>
                       </h6>
                     </div>
                   </div>
@@ -117,8 +115,8 @@ const FooterOne = () => {
                         <i className="far fa-calendar-alt"></i>29 Feb, 2024
                       </div>
                       <h6>
-                        <Link href="/news-details">
-                          Construction Site Security Guide Lide
+                        <Link href="/blog-1">
+                          Custom Blow & Injection Molded Plastic Solutions
                         </Link>
                       </h6>
                     </div>

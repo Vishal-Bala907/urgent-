@@ -5,13 +5,13 @@ import HeaderOne from "@/layouts/headers/HeaderOne"
 
 const BlogDetails = () => {
    return (
-      <>
-         <HeaderOne headerTop={false} />
-         <BreadCrumb title="Blog Details" />
-         <BlogDetailsArea />
-         <FooterOne />
-      </>
-   )
+     <>
+       <HeaderOne headerTop={false} />
+       <BreadCrumb title="Sustainable Packaging" />
+       <BlogDetailsArea />
+       <FooterOne />
+     </>
+   );
 }
 
 export default BlogDetails

@@ -9,7 +9,7 @@ const Blog3 = () => {
   return (
     <div>
       <HeaderOne headerTop={false} />
-      <BreadCrumb title="Blog Details 3" />
+      <BreadCrumb title="Packaging Innovations for Pharmaceuticals" />
       <BlogContent3 />
       <FooterOne />
     </div>

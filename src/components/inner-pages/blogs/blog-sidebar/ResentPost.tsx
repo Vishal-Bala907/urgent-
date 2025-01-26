@@ -12,13 +12,13 @@ const recent_post: DataType[] = [
   {
     id: 1,
     img: "/assets/img/news/pp1.jpg",
-    title: "Energetically Envisioned Is User Friendly",
+    title: "Sustainable Packaging",
     date: "15 Dec, 2024",
   },
   {
     id: 2,
     img: "/assets/img/news/pp2.jpg",
-    title: "Construction Site Security Guide Lide",
+    title: "Custom Blow & Injection Molded Plastic Solutions",
     date: "29 Feb, 2024",
   },
   {
