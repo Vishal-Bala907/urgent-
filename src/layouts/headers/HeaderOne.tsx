@@ -7,7 +7,8 @@ import OffCanvas from "./menus/OffCanvas";
 import { useState } from "react";
 import UseSticky from "@/hooks/UseSticky";
 
-import logo from "@/assets/img/logo/logo.svg";
+// import logo from "@/assets/img/logo/logo.svg";
+import logo from "@/assets/img/logo.jpeg";
 import dot_icon from "@/assets/img/dot.png";
 
 const HeaderOne = ({ headerTop }: any) => {
@@ -23,6 +24,9 @@ const HeaderOne = ({ headerTop }: any) => {
           className={`header-1 ${headerTop ? "" : "style-2"} ${
             sticky ? "sticky" : ""
           }`}
+          // style={{
+          //   background: "linear-gradient(90deg, #71afff 0%, #1a04e6 100%)",
+          // }}
         >
           <div className="container">
             <div className="mega-menu-wrapper">
@@ -30,7 +34,16 @@ const HeaderOne = ({ headerTop }: any) => {
                 <div className="header-left">
                   <div className="logo">
                     <Link href="/" className="header-logo">
-                      <Image src={logo} alt="logo-img" />
+                      <Image
+                        src={logo}
+                        alt="logo-img"
+                        style={{
+                          height: "40px",
+                          width: "auto",
+                          mixBlendMode: "multiply",
+                        }}
+                      />
+                      {/* <img src="/assets/img/logo.jpeg" alt="img" /> */}
                     </Link>
                   </div>
                   <div className="mean__menu-wrapper d-none d-lg-block">

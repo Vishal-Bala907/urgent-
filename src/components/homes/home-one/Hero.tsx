@@ -110,7 +110,7 @@ const Hero = () => {
                       <div className="hero-content">
                         <h2 data-animation="fadeInUp" data-delay="1.3s">
                           Welcome to{" "}
-                          <span style={{ color: "orange" }}>
+                          <span style={{ color: "#ffe000" }}>
                             Shri Navkar Blowpack
                           </span>
                         </h2>
@@ -128,6 +128,9 @@ const Hero = () => {
                             data-animation="fadeInUp"
                             data-delay="1.7s"
                             className="theme-btn"
+                            style={{
+                              backgroundColor: "#00394f",
+                            }}
                           >
                             Explore More
                           </Link>
