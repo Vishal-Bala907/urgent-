@@ -25,6 +25,7 @@ const HomeOne = () => {
         <Service />
         {/* <Project /> */}
         <About />
+        {/* certificate */}
         <Counter padding={true} />
         {/* <Team /> */}
         <Testimonial padding={false} />

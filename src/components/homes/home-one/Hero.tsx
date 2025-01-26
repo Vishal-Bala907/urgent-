@@ -20,7 +20,7 @@ interface DataType {
 const hero_data: DataType[] = [
   {
     id: 1,
-    bg_img: "/assets/img/hero/hero.jpg",
+    bg_img: "/assets/img/bg.jpeg",
     sub_title: "Special industrial",
     title: "Industrial Manufacturing Forging The future",
   },

@@ -3052,7 +3052,7 @@ input.main-search-input::placeholder {
   width: 95%;
   height: 100%;
   content: "";
-  border: 1px solid var(--theme2);
+  border: 1px solid #ffe000;
   z-index: -1;
 }
 .about-wrapper-3 .about-content {

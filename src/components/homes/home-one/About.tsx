@@ -9,6 +9,10 @@ import about_img1 from "@/assets/img/about/about.jpg";
 import about_img2 from "@/assets/img/about/border-shape.png";
 import about_img3 from "@/assets/img/about/video.jpg";
 import about_img4 from "@/assets/img/arrow-shape.png";
+import about_img5 from "@/assets/img/fac1.jpeg";
+import about_img6 from "@/assets/img/fac1R.jpeg";
+import about_img7 from "@/assets/img/image4.jpeg";
+import about_img8 from "@/assets/img/NewProduct.png";
 
 interface DataType {
   sub_title: string;
@@ -47,13 +51,29 @@ const About = () => {
                 className="col-xl-6 col-lg-8 wow fadeInUp"
                 data-wow-delay=".4s"
               >
-                <div className="about-image">
-                  <Image src={about_img1} alt="img" />
-                  <div className="border-shape">
-                    <Image src={about_img2} alt="shape-img" />
+                <div
+                  className="about-image"
+                  style={{
+                    border: "4px solid white",
+                    borderRadius: "10px",
+                  }}
+                >
+                  <Image
+                    src={about_img8}
+                    alt="img"
+                    style={{
+                      border: "4px solid white",
+                      borderRadius: "10px",
+                    }}
+                  />
+                  <div
+                    className="border-shape"
+                    // style={{ backgroundColor: "#ffe000" }}
+                  >
+                    {/* <Image src={about_img2} alt="shape-img" /> */}
                   </div>
                   <div className="video-image">
-                    <Image src={about_img3} alt="img" />
+                    {/* <Image src={about_img3} alt="img" /> */}
                     <div className="video-box">
                       <a
                         onClick={() => setIsVideoOpen(true)}
@@ -70,11 +90,12 @@ const About = () => {
                         <i className="fa-solid fa-medal"></i>
                         <h3>
                           <span className="count">
-                            <Count number={25} />
+                            {/* <Count number={25} /> */}
+                            40+
                           </span>{" "}
                           Years
                         </h3>
-                        <p>Working Experience</p>
+                        <p>Industrial Experience</p>
                       </div>
                     </div>
                   </div>

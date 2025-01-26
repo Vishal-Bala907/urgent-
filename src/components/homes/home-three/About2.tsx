@@ -3,6 +3,7 @@ import Count from "@/components/common/Count";
 import Link from "next/link";
 
 import about_thumb from "@/assets/img/about/about-3.jpg";
+import image from "@/assets/img/smallbg.jpeg";
 import about_arrow from "@/assets/img/arrow-shape.png";
 
 interface ContentType {
@@ -50,7 +51,14 @@ const About2 = () => {
               data-wow-delay=".3s"
             >
               <div className="about-image">
-                <Image src={about_thumb} alt="about-img" />
+                <Image
+                  src={image}
+                  alt="about-img"
+                  style={{
+                    borderRadius: "10px",
+                    border: "4px solid white",
+                  }}
+                />
               </div>
             </div>
             <div className="col-xl-6 col-lg-6 mt-5 mt-lg-0">
@@ -75,9 +83,19 @@ const About2 = () => {
                     </li>
                   ))}
                 </ul>
-                <div className="about-info">
-                  <div className="info-left wow fadeInUp" data-wow-delay=".8s">
-                    <div className="content">
+                <div
+                  className="about-info"
+                  style={{
+                    flexDirection: "row-reverse",
+                    justifyContent: "space-around",
+                  }}
+                >
+                  <div
+                    className="info-left wow fadeInUp"
+                    style={{ alignSelf: "end" }}
+                    data-wow-delay=".8s"
+                  >
+                    {/* <div className="content">
                       <h2>
                         <span className="count">
                           <Count number={30} />{" "}
@@ -85,7 +103,7 @@ const About2 = () => {
                         +
                       </h2>
                       <p>{desc_2}</p>
-                    </div>
+                    </div> */}
                     <Link href="/about" className="theme-btn-2">
                       know More About us
                       <span className="shape-img">
@@ -98,7 +116,7 @@ const About2 = () => {
                       <i className="fa-solid fa-phone-volume"></i>
                     </div>
                     <h4>
-                      <Link href="tel:+91-26594-302-003">+91 2659 302 003</Link>
+                      <Link href="tel:+91-02646221638">02646221638</Link>
                     </h4>
                   </div>
                 </div>
