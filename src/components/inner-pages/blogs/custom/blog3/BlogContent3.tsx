@@ -1,6 +1,4 @@
 import Image from "next/image";
-import BlogDetailsComment from "./BlogDetailsComment";
-import BlogSidebar from "../blog-sidebar";
 import BlogForm from "@/components/forms/BlogForm";
 
 import icon_1 from "@/assets/img/icon/construct.svg";
@@ -8,6 +6,7 @@ import icon_2 from "@/assets/img/icon/comments.svg";
 import blog_thumb1 from "@/assets/img/news/post5.jpg";
 import blog_thumb2 from "@/assets/img/news/post6.jpg";
 import Link from "next/link";
+import BlogSidebar from "../../blog-sidebar";
 
 interface ContentType {
   title_1: string;
@@ -23,53 +22,20 @@ const blog_details_content: ContentType = {
   title_2: "More About This Blo",
   desc_1: (
     <>
-      Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.
-      Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis
-      ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam
-      quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna
-      interdum eu. Curabitur pellentesque nibh nibh, at maximus ante fermentum
-      sit amet. Pellentesque commodo lacus at sodales sodales. Quisque sagittis
-      orci ut diam condimentum, vel euismod erat placerat. In iaculis arcu eros,
-      eget tempus orci facilisis id. Praesent lorem orci, mattis non efficitur
-      id, ultricies vel nibh. Sed volutpat lacus vitae gravida viverra. Fusce
-      vel tempor elit. Proin tempus,.
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo expedita et
+      quo? Deserunt minima vero aliquam dolores odio, ad facere officiis,
+      incidunt modi obcaecati fuga enim ut, autem dolorem harum magni inventore.
     </>
   ),
-  desc_2: (
-    <>
-      Pellentesque sollicitudin congue dolor non aliquam. Morbi volutpat, nisi
-      vel ultricies urnacondimentum, sapien neque lobortis tortor, quis
-      efficitur mi ipsum eu metus. Praesent eleifend orci sit amet est vehicula.
-    </>
-  ),
-  desc_3: (
-    <>
-      Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.
-      Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis
-      ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam
-      quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna
-      interdum eu. Curabitur pellentesque nibh nibh, at maximus ante fermentum
-      sit amet. Pellentesque commodo lacus at sodales sodales. Quisque sagittis
-      orci ut diam condimentum, vel euismod erat placerat. In iaculis arcu eros.
-    </>
-  ),
-  desc_4: (
-    <>
-      Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.
-      Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis
-      ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam
-      quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna
-      interdum eu. Curabitur pellentesque nibh nibh, at maximus ante fermentum
-      sit amet. Pellentesque commodo lacus at sodales sodales. Quisque sagittis
-      orci ut diam condimentum, vel euismod erat placerat. In iaculis arcu eros.
-    </>
-  ),
+  desc_2: <>Abhishek yadav</>,
+  desc_3: <>Abhishek yadav</>,
+  desc_4: <>Abhishek yadav</>,
 };
 
 const { title_1, title_2, desc_1, desc_2, desc_3, desc_4 } =
   blog_details_content;
 
-const BlogDetailsArea = () => {
+const BlogContent3 = () => {
   return (
     <section className="news-section fix section-padding">
       <div className="container">
@@ -167,4 +133,4 @@ const BlogDetailsArea = () => {
   );
 };
 
-export default BlogDetailsArea;
+export default BlogContent3;

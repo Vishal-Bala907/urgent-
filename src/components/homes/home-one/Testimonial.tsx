@@ -16,16 +16,16 @@ const testi_data: DataType[] = [
   {
     id: 1,
     desc: "Our journey began in 1984 with a vision to revolutionize the packaging industry. With dedication and innovation, we’ve built a legacy of trust, quality, and customer satisfaction that continues to guide us today",
-    name: "Suresh Nahar Ji – Founder",
+    name: "Suresh Nahar Ji",
     designation: "Founder’s Message",
-    tempData: "Founder",
+    tempData: "- Founder",
   },
   {
     id: 2,
     desc: "At Shri Navkar Blowpack, we strive for excellence by blending cutting-edge technology with customer-centric solutions. Together, we aim to deliver packaging that sets industry benchmarks and fosters long-term partnership.",
-    name: "Deepak Nahar Ji – Managing Director",
+    name: "Deepak Nahar Ji",
     designation: "MD’s Message",
-    tempData: "Managing Director",
+    tempData: "- Managing Director",
   },
   // {
   //    id: 3,
