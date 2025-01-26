@@ -5078,7 +5078,7 @@ input.main-search-input::placeholder {
 }
 .testimonial-wrapper .testimonial-content .icon {
   font-size: 52px;
-  color: var(--theme);
+  color:  "#14b2f1 ";
   margin-bottom: 30px;
 }
 @media (max-width: 991px) {
