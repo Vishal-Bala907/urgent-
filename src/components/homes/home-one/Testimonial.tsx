@@ -36,8 +36,8 @@ const testi_data: DataType[] = [
 ];
 
 const testi_thumb: string[] = [
-  "/assets/img/testimonial/01.jpg",
-  "/assets/img/testimonial/02.jpg",
+  "/assets/img/NAVKARSOCIALMEDIAPOST1.png",
+  "/assets/img/NAVKARSOCIALMEDIAPOST2NF.png",
   "/assets/img/testimonial/03.jpg",
 ];
 
@@ -152,8 +152,11 @@ const Testimonial = ({ padding }: any) => {
                   <SwiperSlide className="swiper-slide">
                     <div className="testimonial-content">
                       <div className="icon">
-                        <i className="fa-solid fa-quote-right"></i>
-                        <p style={{ fontSize: "small" }}>
+                        <i
+                          className="fa-solid fa-quote-right"
+                          style={{ color: "#ffe000 " }}
+                        ></i>
+                        <p style={{ fontSize: "small", color: "#14b2f1 " }}>
                           {testi_data[0].designation}
                         </p>
                       </div>
@@ -161,7 +164,9 @@ const Testimonial = ({ padding }: any) => {
                       <div className="client-info">
                         <h5>{testi_data[0].name}</h5>
                         {/* <p>{testi_data[0].designation}</p> */}
-                        <p>{testi_data[0].tempData}</p>
+                        <p style={{ color: "#ffe000 " }}>
+                          {testi_data[0].tempData}
+                        </p>
                       </div>
                     </div>
                   </SwiperSlide>
@@ -237,8 +242,11 @@ const Testimonial = ({ padding }: any) => {
                   <SwiperSlide className="swiper-slide">
                     <div className="testimonial-content">
                       <div className="icon">
-                        <i className="fa-solid fa-quote-right"></i>
-                        <p style={{ fontSize: "small" }}>
+                        <i
+                          className="fa-solid fa-quote-right"
+                          style={{ color: "#ffe000 " }}
+                        ></i>
+                        <p style={{ fontSize: "small", color: "#14b2f1 " }}>
                           {testi_data[1].designation}
                         </p>
                       </div>
@@ -246,7 +254,9 @@ const Testimonial = ({ padding }: any) => {
                       <div className="client-info">
                         <h5>{testi_data[1].name}</h5>
                         {/* <p>{testi_data[1].designation}</p> */}
-                        <p>{testi_data[1].tempData}</p>
+                        <p style={{ color: "#ffe000 " }}>
+                          {testi_data[1].tempData}
+                        </p>
                       </div>
                     </div>
                   </SwiperSlide>

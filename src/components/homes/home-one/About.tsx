@@ -24,11 +24,9 @@ interface DataType {
 const about_data: DataType = {
   sub_title: "ABOUT TO Industril",
   title: (
-    <>
-      We Are Here to Increase <br /> Your Knowledge With Experience
-    </>
+    <>Shri Navkar Blowpack Revolutionizing Packaging Solutions Since 1984</>
   ),
-  desc: "We have facility to produce advance work various industrial applications based on specially developed technol-ogy. We are also ready to developement by according to users changing needs. Infrastructure related installation projects.",
+  desc: "WShri Navkar Blowpack has been a pioneer in delivering innovative and high-quality packaging solutions for over four decades. With a strong foundation built in Ankleshwar and an expanding presence in Panoli, we serve industries that demand precision, durability, and excellence. Our journey of innovation continues as we redefine manufacturing with cutting-edge technology and unmatched expertise.",
   about_list: [
     "Decades of experience and expertise in packaging.",
     "Stringent quality control measures for defect-free products.",
