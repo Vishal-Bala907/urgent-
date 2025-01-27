@@ -30,7 +30,7 @@ const HomeOne = () => {
         {/* <Project /> */}
         <About />
         {/* certificate */}
-        <Certificate/>
+        <Certificate />
         <Counter padding={true} />
         {/* <Team /> */}
         <div style={{ display: "flex", justifyContent: "center" }}>

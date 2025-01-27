@@ -9,12 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "react": "^18",
     "@emailjs/browser": "^4.4.1",
     "@hookform/resolvers": "^3.9.0",
     "bootstrap": "^5.3.3",
     "gsap": "^3.12.7",
     "next": "14.2.5",
-    "react": "^18",
     "react-18-image-lightbox": "^5.1.4",
     "react-countup": "^6.5.3",
     "react-dom": "^18",

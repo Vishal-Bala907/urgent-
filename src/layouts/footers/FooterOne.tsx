@@ -99,9 +99,7 @@ const FooterOne = () => {
                         <i className="far fa-calendar-alt"></i>15 Dec, 2024
                       </div>
                       <h6>
-                        <Link href={`/blog-0`}>
-                          Sustainable Packaging
-                        </Link>
+                        <Link href={`/blog-0`}>Sustainable Packaging</Link>
                       </h6>
                     </div>
                   </div>
@@ -117,10 +115,7 @@ const FooterOne = () => {
                         <i className="far fa-calendar-alt"></i>29 Feb, 2024
                       </div>
                       <h6>
-             
-                        <Link href="/blog-1">
-                          Custom Blow
-                        </Link>
+                        <Link href="/blog-1">Custom Blow</Link>
                       </h6>
                     </div>
                   </div>
@@ -128,7 +123,7 @@ const FooterOne = () => {
               </div>
             </div>
 
-            <div
+            {/* <div
               className="col-xl-3 col-lg-4 col-md-6 ps-xl-5 wow fadeInUp"
               data-wow-delay=".9s"
             >
@@ -154,7 +149,7 @@ const FooterOne = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
