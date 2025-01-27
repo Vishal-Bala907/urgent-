@@ -13,6 +13,7 @@ import img4 from "@/assets/img/gallery/04.jpg";
 import img5 from "@/assets/img/gallery/05.jpg";
 import "./Cerificate.css";
 
+
 function Certificate() {
     const [selectedImage, setSelectedImage] = useState<StaticImageData | null>(null);
 
