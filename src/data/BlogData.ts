@@ -37,8 +37,8 @@ const blog_data: DataType[] = [
     page: "home_1",
     thumb: blog_thumb2,
     date: "January 29, 2024",
-    tag: "Quality Assurance",
-    title: "Custom Blow & Injection Molded Plastic Solutions",
+    tag: "Quality-Assurance",
+    title: "Custom Blow ",
     data_wow_delay: ".5s",
   },
   {
@@ -46,8 +46,8 @@ const blog_data: DataType[] = [
     page: "home_1",
     thumb: blog_thumb3,
     date: " January 14, 2024",
-    tag: " Innovative Packaging Designs",
-    title: "Packaging Innovations for Pharmaceuticals:",
+    tag: " Innovative-Designs",
+    title: "Packaging Innovations",
     data_wow_delay: ".7s",
   },
 

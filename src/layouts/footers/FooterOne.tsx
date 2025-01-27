@@ -100,7 +100,7 @@ const FooterOne = () => {
                       </div>
                       <h6>
                         <Link href={`/blog-0`}>
-                          Energetically Envisioned Is User Friendly
+                          Sustainable Packaging
                         </Link>
                       </h6>
                     </div>
@@ -119,7 +119,7 @@ const FooterOne = () => {
                       <h6>
              
                         <Link href="/blog-1">
-                          Custom Blow & Injection Molded Plastic Solutions
+                          Custom Blow
                         </Link>
                       </h6>
                     </div>
