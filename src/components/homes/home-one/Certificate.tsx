@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules"; // Import Pagination module
 import "swiper/css";
 import "swiper/css/autoplay";
-import "swiper/css/pagination"; // Import Pagination CSS
+import "swiper/css/pagination";
 import img1 from "@/assets/img/gallery/01.jpg";
 import img2 from "@/assets/img/gallery/02.jpg";
 import img3 from "@/assets/img/gallery/03.jpg";
@@ -42,7 +42,7 @@ function Certificate() {
                 >
                     {images.map((image, index) => (
                         <div key={index} >
-                            <SwiperSlide onClick={() => handleImageClick(image)}>
+                            <SwiperSlide className={'sliding-images-container'} onClick={() => handleImageClick(image)}>
                                 <Image
                                     src={image}
                                     alt={`Certificate ${index + 1}`}
