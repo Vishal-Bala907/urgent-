@@ -9,7 +9,7 @@ const Blog2 = () => {
   return (
     <div>
       <HeaderOne headerTop={false} />
-      <BreadCrumb title="Blog Details 2" />
+      <BreadCrumb title="Custom Blow & Injection Molded Plastic Solutions" />
       <BlogDetailsArea2 />
       <FooterOne />
     </div>
