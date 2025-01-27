@@ -14,15 +14,15 @@ interface ContentType {
 
 const about_content: ContentType = {
   sub_title: "ABOUT TO industry",
-  title: "We Are Here to Increase Your Knowledge With Experience",
+  title: "Our Journey",
   desc_1: (
     <>
-      At Shri Navkar Blowpack, we are proud to be a trusted name in the
-      packaging industry. Established in 1984 by Suresh Nahar Ji, our journey
-      began with a vision to revolutionize packaging solutions for industries
-      across the globe. Under the leadership of our current Managing Director,
-      Deepak Nahar Ji, we have grown into a leading manufacturer of Blow and
-      Injection moulded plastic products.
+      Shri Navkar Blowpack was established in 1984 with a vision to provide
+      high-quality packaging solutions to industries that demand reliability and
+      precision. Starting with our first facility in Ankleshwar, we have
+      expanded our capabilities to include a second facility in Panoli, ensuring
+      we meet growing demands and maintain our position as a leader in the
+      industry.
     </>
   ),
   desc_2: (

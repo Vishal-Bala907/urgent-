@@ -77,7 +77,7 @@ const About2 = () => {
                     <li key={i} style={{ color: "#ffe000s" }}>
                       <i
                         className="fa-regular fa-circle-check"
-                        style={{ color: "#ffe000s" }}
+                        style={{ color: "#14b2f1" }}
                       ></i>
                       {list}
                     </li>
@@ -111,9 +111,16 @@ const About2 = () => {
                       </span>
                     </Link>
                   </div>
-                  <div className="info-right wow fadeInUp" data-wow-delay=".9s">
-                    <div className="icon ripple">
-                      <i className="fa-solid fa-phone-volume"></i>
+                  <div
+                    className="info-right wow fadeInUp"
+                    data-wow-delay=".9s"
+                    // style={{ backgroundColor: "#ffe000" }}
+                  >
+                    <div className="icon ripple" style={{ color: "#ffe000" }}>
+                      <i
+                        className="fa-solid fa-phone-volume"
+                        style={{ color: "#ffe000" }}
+                      ></i>
                     </div>
                     <h4>
                       <Link href="tel:+91-02646221638">02646221638</Link>

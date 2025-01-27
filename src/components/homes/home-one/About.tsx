@@ -24,7 +24,10 @@ interface DataType {
 const about_data: DataType = {
   sub_title: "ABOUT TO Industril",
   title: (
-    <>Shri Navkar Blowpack Revolutionizing Packaging Solutions Since 1984</>
+    <>
+      Shri Navkar Blowpack Revolutionizing Packaging Solutions
+      <span style={{ color: "#ffe000" }}> Since 1984 </span>
+    </>
   ),
   desc: "WShri Navkar Blowpack has been a pioneer in delivering innovative and high-quality packaging solutions for over four decades. With a strong foundation built in Ankleshwar and an expanding presence in Panoli, we serve industries that demand precision, durability, and excellence. Our journey of innovation continues as we redefine manufacturing with cutting-edge technology and unmatched expertise.",
   about_list: [
@@ -119,7 +122,10 @@ const About = () => {
                   <ul className="wow fadeInUp" data-wow-delay=".7s">
                     {about_list.map((list, i) => (
                       <li key={i}>
-                        <i className="fa-solid fa-circle-check"></i>
+                        <i
+                          className="fa-solid fa-circle-check"
+                          style={{ color: "#14b2f1" }}
+                        ></i>
                         {list}
                       </li>
                     ))}
@@ -139,7 +145,10 @@ const About = () => {
                       <div className="icon">
                         <i className="fa-solid fa-phone-volume"></i>
                         <h6>
-                          <Link href="tel:+91-26594-302-003">
+                          <Link
+                            href="tel:+91-26594-302-003"
+                            style={{ color: "#ffe000" }}
+                          >
                             +91 2646 251639
                           </Link>
                         </h6>

@@ -119,8 +119,8 @@ const Hero = () => {
                         </h1>
                         <p style={{ color: "white", whiteSpace: "none" }}>
                           Delivering premium blow and injection-moulded bottles
-                          for agrochemicals, pesticides, and more, tailored to
-                          your business needs.
+                          for agrochemicals, pesticides, and more, <br />{" "}
+                          tailored to your business needs.
                         </p>
                         <div className="hero-button">
                           <Link

@@ -12,6 +12,7 @@ Version: 1.0.0
   --black: #000;
   --white: #fff;
   --theme: #ec2d2d;
+  --themeY: #ffe000;
   --yellowMy:#ffe000
   --themeMy: #14b2f1;
   --theme2: #ff9900;
@@ -2773,7 +2774,7 @@ input.main-search-input::placeholder {
   margin-bottom: 15px;
 }
 .about-wrapper .about-content ul li i {
-  color: var(--theme);
+  color: blue;
   margin-right: 5px;
 }
 .about-wrapper .about-content .about-info-items {
@@ -2953,7 +2954,7 @@ input.main-search-input::placeholder {
   }
 }
 .about-wrapper-2 .about-content ul li {
-  color: var(--white);
+  /* color: var(--white); */
   padding-left: 20px;
   position: relative;
 }
@@ -3120,11 +3121,12 @@ input.main-search-input::placeholder {
   text-align: center;
   background-color: var(--bg2);
   padding: 80px 30px 40px 30px;
-  border-top: 2px solid var(--theme);
+  border-top: 2px solid var(--themeY);
+;
 }
 .about-wrapper-3 .about-content .about-info .info-right .icon {
   font-size: 46px;
-  color: var(--theme);
+  color: var(--themeY);
   margin-bottom: 70px;
 }
 .about-wrapper-3 .about-content .about-info .info-right .icon::before {
