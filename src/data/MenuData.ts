@@ -81,5 +81,11 @@ const menu_data: MenuItem[] = [
     title: "Contact",
     link: "/contact",
   },
+  {
+    id: 8,
+    has_dropdown: false,
+    title: "Shop",
+    link: "https://client-projects.onrender.com",
+  },
 ];
 export default menu_data;
