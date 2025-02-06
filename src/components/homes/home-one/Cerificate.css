@@ -113,8 +113,8 @@
         right: 150px;
     }
     .overlay-image {
-     width: 500px; /* Scale down for tablets */
-      height: auto;
+        width: 500px; /* Scale down for tablets */
+        height: auto;
     }
 
 }
@@ -126,7 +126,7 @@
     }
     .overlay-image {
         width: 300px; /* Scale further for small screens */
-       height: auto;
+        height: auto;
     }
     .sliding-images-container img {
         width: 120px;
