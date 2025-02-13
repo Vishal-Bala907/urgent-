@@ -1,7 +1,7 @@
 interface MenuItem {
   id: number;
   title: string;
-  link: string;
+  link: string | any;
   has_dropdown: boolean;
   sub_menus?: {
     link: string;
@@ -85,7 +85,7 @@ const menu_data: MenuItem[] = [
     id: 8,
     has_dropdown: false,
     title: "Shop",
-    link: "https://client-projects.onrender.com",
+    link: process.env.NEXT_PUBLIC_ECOOMERCE_URL,
   },
 ];
 export default menu_data;
