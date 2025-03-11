@@ -11,16 +11,23 @@ interface MenuItem {
 [];
 
 const menu_data: MenuItem[] = [
+  // {
+  //   id: 1,
+  //   has_dropdown: true,
+  //   title: "Home",
+  //   link: "#",
+  //   sub_menus: [
+  //     { link: "/", title: "Industry Service" },
+  //     { link: "/home-two", title: "Oil Industry" },
+  //     { link: "/home-three", title: "Gas Industry" },
+  //   ],
+  // },
   {
     id: 1,
     has_dropdown: true,
     title: "Home",
-    link: "#",
-    sub_menus: [
-      { link: "/", title: "Industry Service" },
-      { link: "/home-two", title: "Oil Industry" },
-      { link: "/home-three", title: "Gas Industry" },
-    ],
+    link: "/",
+   
   },
   {
     id: 2,
