@@ -378,7 +378,7 @@
         &-2 {
             margin-bottom: 45px;
             display: flex;
-            justify-content: end;
+            justify-content: flex-end;
             @include breakpoint(max-md){
                 display: block;
             }

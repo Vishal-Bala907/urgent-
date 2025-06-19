@@ -4584,7 +4584,7 @@ input.main-search-input::placeholder {
 .team-item-2 {
   margin-bottom: 45px;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
 @media (max-width: 767px) {
   .team-item-2 {
