@@ -74,6 +74,7 @@ const menu_data: MenuItem[] = [
   //       { link: "/news-standard", title: "Blog Standard" },
   //       { link: "/news-details", title: "Blog Details" },
   //    ],
+
   // },
   {
     id: 7,
