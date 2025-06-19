@@ -75,7 +75,7 @@ const About = () => {
                   </div>
                   <div className="video-image">
                     {/* <Image src={about_img3} alt="img" /> */}
-                    <div className="video-box">
+                    {/* <div className="video-box">
                       <a
                         onClick={() => setIsVideoOpen(true)}
                         style={{ cursor: "pointer" }}
@@ -83,7 +83,7 @@ const About = () => {
                       >
                         <i className="fa-solid fa-play"></i>
                       </a>
-                    </div>
+                    </div> */}
                   </div>
                   <div className="working-area float-bob-y">
                     <div className="inner">
