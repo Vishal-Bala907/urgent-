@@ -21,11 +21,11 @@ const ServiceDetailsArea = () => {
                      <div className="col-12 col-lg-8">
                         <div className="details-image">
                            <Image src={details_thumb1} alt="img" />
-                           <div className="video-box">
+                           {/* <div className="video-box">
                               <a onClick={() => setIsVideoOpen(true)} style={{ cursor: "pointer" }} className="video-btn ripple video-popup">
                                  <i className="fa-solid fa-play"></i>
                               </a>
-                           </div>
+                           </div> */}
                         </div>
                         <div className="details-content">
                            <h2>Petroleum Refinery</h2>

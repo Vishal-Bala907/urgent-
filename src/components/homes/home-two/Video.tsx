@@ -11,7 +11,7 @@ const Video = () => {
 
    return (
       <>
-         <div className="video-section bg-cover" style={{ backgroundImage: `url(/assets/img/video-bg.jpg)` }}>
+         {/* <div className="video-section bg-cover" style={{ backgroundImage: `url(/assets/img/video-bg.jpg)` }}>
             <div className="container">
                <div className="video-wrapper-box text-center">
                   <a onClick={() => setIsVideoOpen(true)} style={{ cursor: "pointer" }} className="video-btn video-popup">
@@ -20,7 +20,7 @@ const Video = () => {
                   </a>
                </div>
             </div>
-         </div>
+         </div> */}
          <VideoPopup
             isVideoOpen={isVideoOpen}
             setIsVideoOpen={setIsVideoOpen}

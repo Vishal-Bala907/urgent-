@@ -50,14 +50,14 @@ const About = () => {
                      </div>
                      <div className="col-xl-6 col-lg-6 mt-5 mt-lg-0">
                         <div className="about-content">
-                           <div className="video-box">
+                           {/* <div className="video-box">
                               <div className="circle-shape wow fadeInUp">
                                  <Image src={about_circle} alt="img" className="text-circle" />
                                  <a onClick={() => setIsVideoOpen(true)} style={{ cursor: "pointer" }} className="video-btn video-popup">
                                     <i className="fa-solid fa-play"></i>
                                  </a>
                               </div>
-                           </div>
+                           </div> */}
                            <div className="section-title">
                               <span className="wow fadeInUp" data-wow-delay=".3s">{sub_title}</span>
                               <h2 className="wow fadeInUp" data-wow-delay=".5s">{title}</h2>
