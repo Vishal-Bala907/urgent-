@@ -24,9 +24,9 @@ const HeaderOne = ({ headerTop }: any) => {
           className={`header-1 ${headerTop ? "" : "style-2"} ${
             sticky ? "sticky" : ""
           }`}
-          // style={{
-          //   background: "linear-gradient(90deg, #71afff 0%, #1a04e6 100%)",
-          // }}
+          style={{
+            background: "linear-gradient(90deg, #71afff 0%, #1a04e6 100%)",
+          }}
         >
           <div className="container">
             <div className="mega-menu-wrapper">
