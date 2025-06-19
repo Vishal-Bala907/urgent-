@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import logo from "@/assets/img/logo/logo.svg";
+import logo from "@/assets/img/logo.jpeg";
 
 const FooterOne = () => {
   return (
@@ -16,9 +16,9 @@ const FooterOne = () => {
               data-wow-delay=".3s"
             >
               <div className="single-footer-widget">
-                <div className="widget-head">
+                <div className="widget-head ">
                   <Link href="/">
-                    <Image src={logo} alt="logo-img" />
+                    <Image src={logo} width={80} alt="logo-img" />
                   </Link>
                 </div>
                 <div className="footer-content">

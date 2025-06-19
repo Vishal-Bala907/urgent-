@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import logo from "@/assets/img/logo/logo.svg";
+import logo from "@/assets/img/logo.jpeg";
 import NavMenu from "./NavMenu";
 import MobileMenu from "./MobileMenu";
 
@@ -14,9 +14,9 @@ const OffCanvas = ({ offCanvas, setOffCanvas }: any) => {
             <div className="offcanvas__content">
               <div className="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
                 <div className="offcanvas__logo">
-                  <Link href="/">
-                    <Image src={logo} alt="logo-img" />
-                  </Link>
+                  {/* <Link href="/">
+                    <Image height={90} width={10} src={logo} alt="logo-img" />
+                  </Link> */}
                 </div>
                 <div className="offcanvas__close">
                   <button onClick={() => setOffCanvas(false)}>
@@ -48,7 +48,7 @@ const OffCanvas = ({ offCanvas, setOffCanvas }: any) => {
                     </div>
                     <div className="offcanvas__contact-text">
                       <Link target="_blank" href="#">
-                        Main Street, Melbourne, Australia
+                      F-7, Arunoday Complex, Opp. Little Hut, GIDC Estate Ankleshwar.
                       </Link>
                     </div>
                   </li>

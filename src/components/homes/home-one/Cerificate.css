@@ -1,8 +1,13 @@
 .certificate-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Ensures vertical alignment */
   text-align: center;
   margin-bottom: 40px;
-  font-size: 4rem;
+  font-size: 4vw;
   color: white;
+  width: 100%;
 }
 /* Pagination Styles */
 .swiper-pagination {
@@ -23,8 +28,7 @@
   background-color: #007bff; /* Active bullet color */
 }
 .swipe-container {
-  /* padding-left: 340px !important; */
-  margin: auto;
+  padding-left: 340px !important;
   width: 1100px !important;
   justify-content: center !important;
   align-items: center !important;
@@ -58,10 +62,9 @@
 
 .overlay-image {
   position: relative;
-  max-width: 90%; /* Default for larger screens */
-  max-height: 90vh;
-  width: auto;
-  height: auto;
+width: auto;
+  height: 90vh;
+
   object-fit: contain;
 }
 .close-button {
@@ -92,6 +95,7 @@
 
   .close-button {
     top: 40px;
+    /*right: 300px;*/
   }
   .overlay-image {
     width: 85%;
@@ -100,10 +104,12 @@
 
 @media (max-width: 768px) {
   .swipe-container {
-    padding-left: 100px !important;
-    width: 600px !important;
+    padding-left: 146px !important;
+    width: 660px !important;
   }
-
+  .certificate-container {
+    font-size: 2rem !important;
+  }
   .sliding-images-container img {
     width: 150px;
     height: 100px;
@@ -113,7 +119,7 @@
     right: 150px;
   }
   .overlay-image {
-    width: 500px;
+    width: 500px; /* Scale down for tablets */
     height: auto;
   }
 }
@@ -124,7 +130,7 @@
     width: 400px !important;
   }
   .overlay-image {
-    width: 300px;
+    width: 300px; /* Scale further for small screens */
     height: auto;
   }
   .sliding-images-container img {
@@ -136,15 +142,20 @@
     right: 70px;
     top: 30px;
   }
+  /* .certificate-container {
+
+        font-size: 1rem !important;
+    
+    } */
 }
 
 @media (max-width: 425px) {
   .swipe-container {
-    padding-left: 20px !important;
-    width: 350px !important;
+padding-left: 47px !important;
+        width: 388px !important;
   }
   .overlay-image {
-    width: 95% !important;
+    width: 95% !important; /* Scale further for small screens */
     height: auto;
   }
   .sliding-images-container img {
@@ -168,7 +179,7 @@
     height: 60px;
   }
   .overlay-image {
-    width: 200px;
+    width: 200px; /* Scale further for small screens */
     height: auto;
   }
   .close-button {

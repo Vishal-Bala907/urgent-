@@ -29,6 +29,12 @@ function Certificate() {
     setSelectedImage(null);
   };
 
+  const handleOverlayClick = (event: React.MouseEvent<HTMLDivElement>) => {
+    if (event.target === event.currentTarget) {
+      handleCloseImage();
+    }
+  };
+
   return (
     <div>
       <h1 className="certificate-container">Certificates</h1>
@@ -61,7 +67,7 @@ function Certificate() {
       </div>
 
       {selectedImage && (
-        <div className="overlay">
+        <div className="overlay" onClick={handleOverlayClick}>
           <div>
             <Image
               className="overlay-image"

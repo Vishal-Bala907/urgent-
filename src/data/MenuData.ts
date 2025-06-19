@@ -1,7 +1,7 @@
 interface MenuItem {
   id: number;
   title: string;
-  link: string;
+  link: string | any;
   has_dropdown: boolean;
   sub_menus?: {
     link: string;
@@ -11,16 +11,23 @@ interface MenuItem {
 [];
 
 const menu_data: MenuItem[] = [
+  // {
+  //   id: 1,
+  //   has_dropdown: true,
+  //   title: "Home",
+  //   link: "#",
+  //   sub_menus: [
+  //     { link: "/", title: "Industry Service" },
+  //     { link: "/home-two", title: "Oil Industry" },
+  //     { link: "/home-three", title: "Gas Industry" },
+  //   ],
+  // },
   {
     id: 1,
     has_dropdown: true,
     title: "Home",
-    link: "#",
-    sub_menus: [
-      { link: "/", title: "Industry Service" },
-      { link: "/home-two", title: "Oil Industry" },
-      { link: "/home-three", title: "Gas Industry" },
-    ],
+    link: "/",
+   
   },
   {
     id: 2,
@@ -38,31 +45,31 @@ const menu_data: MenuItem[] = [
   //       { link: "/project-details", title: "Projects Details" },
   //    ],
   // },
-  {
-    id: 4,
-    has_dropdown: true,
-    title: "Services",
-    link: "#",
-    sub_menus: [
-      { link: "/service", title: "Services" },
-      { link: "/service-details", title: "Services Details" },
-    ],
-  },
-  {
-    id: 5,
-    has_dropdown: true,
-    title: "Pages",
-    link: "#",
-    sub_menus: [
-      { link: "/team", title: "Team" },
-      { link: "/team-details", title: "Team Details" },
-      { link: "/testimonial", title: "Client Feedback" },
-      { link: "/gallery", title: "Our Gallery" },
-      { link: "/pricing", title: "Pricing Plan" },
-      { link: "/faq", title: "Faq" },
-      { link: "/404", title: "Error Page" },
-    ],
-  },
+  // {
+  //   id: 4,
+  //   has_dropdown: true,
+  //   title: "Services",
+  //   link: "#",
+  //   sub_menus: [
+  //     { link: "/service", title: "Services" },
+  //     { link: "/service-details", title: "Services Details" },
+  //   ],
+  // },
+  // {
+  //   id: 5,
+  //   has_dropdown: true,
+  //   title: "Pages",
+  //   link: "#",
+  //   sub_menus: [
+  //     { link: "/team", title: "Team" },
+  //     { link: "/team-details", title: "Team Details" },
+  //     { link: "/testimonial", title: "Client Feedback" },
+  //     { link: "/gallery", title: "Our Gallery" },
+  //     { link: "/pricing", title: "Pricing Plan" },
+  //     { link: "/faq", title: "Faq" },
+  //     { link: "/404", title: "Error Page" },
+  //   ],
+  // },
   // {
   //    id: 6,
   //    has_dropdown: true,
@@ -86,7 +93,7 @@ const menu_data: MenuItem[] = [
     id: 8,
     has_dropdown: false,
     title: "Shop",
-    link: "https://client-projects.onrender.com",
+    link: process.env.NEXT_PUBLIC_ECOOMERCE_URL,
   },
 ];
 export default menu_data;
