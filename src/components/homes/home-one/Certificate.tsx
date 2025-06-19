@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import Image, { StaticImageData } from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Pagination } from "swiper/modules"; // Import Pagination module
+import { Autoplay, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/autoplay";
 import "swiper/css/pagination";
@@ -13,7 +13,7 @@ import img4 from "@/assets/img/gallery/04.jpg";
 import img6 from "@/assets/img/gallery/04.jpg";
 import img5 from "@/assets/img/gallery/05.jpg";
 import "./Cerificate.css";
-
+ 
 function Certificate() {
   const [selectedImage, setSelectedImage] = useState<StaticImageData | null>(
     null
@@ -36,32 +36,26 @@ function Certificate() {
   };
 
   return (
-    <div>
+    <div className="certificate-outer">
       <h1 className="certificate-container">Certificates</h1>
       <div className="swipe-container">
         <Swiper
-          modules={[Autoplay, Pagination]} // Add Pagination module
-          spaceBetween={0}
+          modules={[Autoplay, Pagination]}
+          spaceBetween={40} // Increase this value if needed
           slidesPerView={3}
           centeredSlides={true}
-          autoplay={{ delay: 4000, disableOnInteraction: false }}
+          autoplay={{ delay: 2000, disableOnInteraction: false }}
           loop={true}
           pagination={{ clickable: true }}
         >
           {images.map((image, index) => (
-            <div key={index}>
-              <SwiperSlide
-                className={"sliding-images-container"}
-                style={{ width: "fit-content !important" }}
-                onClick={() => handleImageClick(image)}
-              >
-                <Image
-                  src={image}
-                  alt={`Certificate ${index + 1}`}
-                  className="swiper-slide img"
-                />
-              </SwiperSlide>
-            </div>
+            <SwiperSlide
+              key={index}
+              className="sliding-images-container"
+              onClick={() => handleImageClick(image)}
+            >
+              <Image src={image} alt={`Certificate ${index + 1}`} />
+            </SwiperSlide>
           ))}
         </Swiper>
       </div>

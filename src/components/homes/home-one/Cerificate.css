@@ -27,23 +27,116 @@
 .swiper-pagination-bullet-active {
   background-color: #007bff; /* Active bullet color */
 }
+/* Outer container */
+.certificate-outer {
+  width: 100vw;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 40px 0;
+  min-height: 500px;
+  background: #181c2a;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+/* Swiper container */
 .swipe-container {
-  padding-left: 340px !important;
-  width: 1100px !important;
-  justify-content: center !important;
-  align-items: center !important;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 !important;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Remove overflow: visible or hidden here */
+}
+
+/* Swiper itself */
+.swiper {
+  width: 100% !important;
+  min-width: 0 !important;
+  overflow: visible !important;
+}
+
+/* Swiper slide */
+.swiper-slide {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  /* Remove width: 0 or min-width: 0 if present */
+}
+
+/* Slide image */
+.sliding-images-container img {
+  width: 320px;
+  height: 200px;
+  max-width: 90vw;
+  object-fit: cover;
+  border-radius: 16px;
+  margin: 0 10px;
+  transition: transform 0.3s;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+  display: block;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+  .swipe-container {
+    max-width: 1000px;
+  }
+  .sliding-images-container img {
+    width: 220px;
+    height: 140px;
+  }
+}
+@media (max-width: 900px) {
+  .swipe-container {
+    max-width: 700px;
+  }
+  .sliding-images-container img {
+    width: 140px;
+    height: 90px;
+  }
+}
+@media (max-width: 600px) {
+  .certificate-outer {
+    min-height: 200px;
+    padding: 10px 0;
+  }
+  .swipe-container {
+    max-width: 98vw;
+    padding: 0 !important;
+  }
+  .sliding-images-container img {
+    width: 90px;
+    height: 60px;
+    max-width: 90vw;
+    margin: 0 4px;
+  }
+}
+
+/* Prevent horizontal scroll and image cut-off */
+.swiper {
+  overflow: visible !important;
 }
 
 .sliding-images-container img {
-  display: block;
-  margin: 0;
-  padding: 0;
-  width: 230px;
-  height: 150px;
+  width: 340px;
+  height: 220px;
+  max-width: 90vw;
   object-fit: cover;
-  border: 2px solid white;
-  border-radius: 10px;
-  cursor: pointer;
+  border-radius: 16px;
+  margin: 0 10px;
+  transition: transform 0.3s;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+}
+.sliding-images-container img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.18);
 }
 
 .overlay {
@@ -86,8 +179,8 @@ width: auto;
     padding-left: 200px !important;
     width: 800px !important;
   }
-  .close-button {
-  }
+  /* .close-button {
+  } */
   .sliding-images-container img {
     width: 200px;
     height: 130px;
