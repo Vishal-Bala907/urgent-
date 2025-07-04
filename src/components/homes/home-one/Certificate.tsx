@@ -124,15 +124,15 @@ function Certificate() {
               alt="Selected Certificate"
               loading="eager"
               style={{
-                maxWidth: '90vw',
-                maxHeight: '80vh',
-                width: 'auto',
+                width: '90vw',
                 height: 'auto',
+                maxHeight: '90vh',
                 display: 'block',
                 margin: '0 auto',
                 borderRadius: 12,
                 boxShadow: '0 10px 40px rgba(0,0,0,0.5)',
                 background: '#fff',
+                objectFit: 'contain',
               }}
             />
             <button 
