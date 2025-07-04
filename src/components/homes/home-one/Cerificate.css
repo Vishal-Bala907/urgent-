@@ -41,7 +41,6 @@
 }
 
 .swiper-slide {
-  display: flex !important;
   justify-content: center;
   align-items: center;
   height: auto !important;
@@ -249,7 +248,7 @@
 @media (max-width: 480px) {
   .certificate-outer {
     padding: 20px 10px;
-    min-height: 400px;
+    min-height: 200px;
   }
   
   .swipe-container {
