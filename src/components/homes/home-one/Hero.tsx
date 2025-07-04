@@ -102,7 +102,8 @@ const Hero = () => {
                   data-animation="fadeInLeft"
                   data-delay="2.2s"
                 >
-                  <Image src={hero_shape_1} alt="shape-img" />
+                  {/* commented this out to fix bug */}
+                  {/* <Image src={hero_shape_1} alt="shape-img" /> */}
                 </div>
                 <div className="container">
                   <div className="row g-4 align-items-center justify-content-between">
