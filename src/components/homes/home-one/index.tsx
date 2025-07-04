@@ -38,11 +38,10 @@ const HomeOne = () => {
             src={clients}
             alt="img"
             style={{
-              // border: "4px solid white",
               borderRadius: "10px",
               marginBottom: "30px",
               width: "1500px",
-              maxWidth: " 100%",
+              maxWidth: "100%",
               height: "auto",
             }}
           />
@@ -52,11 +51,10 @@ const HomeOne = () => {
             src={img}
             alt="img"
             style={{
-              // border: "4px solid white",
               borderRadius: "10px",
               marginBottom: "30px",
               width: "1500px",
-              maxWidth: " 100%",
+              maxWidth: "100%",
               height: "auto",
             }}
           />
