@@ -2,11 +2,10 @@
 import React, { useState, useEffect } from "react";
 import Image, { StaticImageData } from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Pagination, EffectCoverflow, Navigation } from "swiper/modules";
+import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/autoplay";
 import "swiper/css/pagination";
-import "swiper/css/effect-coverflow";
 import "swiper/css/navigation";
 import img1 from "@/assets/img/gallery/01.jpg";
 import img2 from "@/assets/img/gallery/02.jpg";
@@ -64,41 +63,33 @@ function Certificate() {
       <h1 className="certificate-container">Certificates</h1>
       <div className="swipe-container">
         <Swiper
-          modules={[Autoplay, Pagination, EffectCoverflow, Navigation]}
-          effect="coverflow"
-          coverflowEffect={{
-            rotate: 30,
-            stretch: 0,
-            depth: 120,
-            modifier: 1.5,
-            slideShadows: false,
-          }}
+          modules={[Autoplay, Pagination, Navigation]}
           navigation={{
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
             disabledClass: 'swiper-button-disabled',
           }}
           pagination={{ clickable: true, dynamicBullets: true }}
-          spaceBetween={10}
-          slidesPerView={1}
+          spaceBetween={20}
           centeredSlides={true}
+          slidesPerView={1.2}
           autoplay={{ delay: 3000, disableOnInteraction: false }}
           loop={true}
           breakpoints={{
             480: {
-              slidesPerView: 1,
-              spaceBetween: 10,
+              slidesPerView: 1.2,
+              spaceBetween: 16,
             },
             640: {
-              slidesPerView: 2,
+              slidesPerView: 2.2,
               spaceBetween: 20,
             },
             900: {
-              slidesPerView: 3,
+              slidesPerView: 2.7,
               spaceBetween: 30,
             },
             1200: {
-              slidesPerView: 3,
+              slidesPerView: 3.2,
               spaceBetween: 40,
             },
           }}
